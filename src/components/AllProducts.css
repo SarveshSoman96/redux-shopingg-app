@@ -1,0 +1,16 @@
+.product_container{
+    max-width: 80%;
+    margin: auto;
+    /* min-height: 100vh; */
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 3em;
+    justify-content: center;
+}
+
+.loading_message{
+    text-align: center;
+    color: rgb(9, 40, 69);
+    margin-top: 15rem;
+}

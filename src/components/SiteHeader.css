@@ -1,0 +1,15 @@
+.site_header{
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: rgb(35, 71, 105);
+}
+.site_header h1{
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+.position_fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
