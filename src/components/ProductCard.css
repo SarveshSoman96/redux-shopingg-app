@@ -17,8 +17,9 @@
    width: 60%;
 }
 .product_card .product_content{
+    width: 80%;
     height: 40%;
-    padding: 1em;
+    padding: 1em 0; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,7 +31,7 @@
     color: rgb(93, 88, 88);
 }
 .product_card .product_content a{
-    max-width: auto;
+    width: auto;
     text-decoration: none;
     background-color: rgb(51, 93, 133);
     color: aliceblue;
