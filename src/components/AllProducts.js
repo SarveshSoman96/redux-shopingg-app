@@ -20,6 +20,7 @@ const AllProducts = () => {
 
 useEffect(() => {
   fetchAllProducts()
+  //eslint-disable-next-line
 }, [])
 
   

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./SelectedProduct.css"
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import axios from 'axios';
 import { useDispatch, useSelector } from "react-redux";
@@ -26,6 +26,7 @@ const SelectedProduct = () => {
       return () => {
         dispatch (removeProduct())
       }
+      //eslint-disable-next-line
   }, [productId])  
 
   return (
