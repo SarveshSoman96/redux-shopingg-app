@@ -1,6 +1,6 @@
 import React from 'react';
 import "./SelectedProduct.css"
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { useEffect } from "react";
 import axios from 'axios';
 import { useDispatch, useSelector } from "react-redux";
@@ -29,6 +29,7 @@ const SelectedProduct = () => {
   }, [productId])  
 
   return (
+    <>
     <div className='product_details'>
         <div className='selected_image'>
             <img src={image} alt={title} />
@@ -40,6 +41,8 @@ const SelectedProduct = () => {
             <p id='description'> {description} </p>
         </div>
     </div>
+    </>
+
   )
 }
 
